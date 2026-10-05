@@ -5,7 +5,7 @@ license: MIT
 compatibility: Works with software repositories across languages and delivery styles; evidence quality depends on access to the target project's actual code, contracts, documentation, and tests.
 metadata:
   author: Turpial AI Academy
-  version: "0.5.0"
+  version: "0.5.1"
 ---
 
 # specs
