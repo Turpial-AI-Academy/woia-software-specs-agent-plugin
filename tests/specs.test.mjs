@@ -7,6 +7,13 @@ const ROOT = path.resolve(import.meta.dirname, "..");
 
 const skillRoot = path.join(ROOT, "skills", "specs");
 
+test("specs default output preserves repository conventions and avoids ID collisions", async () => {
+  const skill = await readFile(path.join(skillRoot, "SKILL.md"), "utf8");
+  assert.match(skill, /target repository's healthy existing specification convention/);
+  assert.match(skill, /docs\/specs\/<SPEC-ID>-<slug>\/<SPEC-ID>\.md/);
+  assert.match(skill, /next collision-free `SPEC-001`, `SPEC-002`/);
+});
+
 test("skill discovers before writing and preserves project conventions", async () => {
   const skill = await readFile(path.join(skillRoot, "SKILL.md"), "utf8");
   const discover = skill.indexOf("## Discover");
