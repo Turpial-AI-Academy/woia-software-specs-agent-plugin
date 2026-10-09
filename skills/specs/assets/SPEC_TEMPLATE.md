@@ -1,6 +1,5 @@
 # <SPEC-ID> — <title>
 
-**Date:** YYYY-MM-DD
 
 ## Context
 
