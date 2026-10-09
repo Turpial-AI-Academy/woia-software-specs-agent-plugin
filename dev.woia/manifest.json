@@ -1,23 +1,8 @@
 {
   "schema": "dev.woia.provider-manifest/v1",
-  "version": "0.5.1",
+  "version": "0.5.6",
   "authoring_profile": "thin",
   "department": "software",
   "capability": "specs",
-  "skill": "specs",
-  "source_lineage": {
-    "repository": "Turpial-AI-Academy/specs-agent-plugin",
-    "version": "1.0.1",
-    "commit": "e9c7e78425c9cb00a72b9482f7ec1e096727a331"
-  },
-  "migrated_portable_paths": [
-    "skills/specs/SKILL.md",
-    "skills/specs/assets/README.md",
-    "skills/specs/assets/SPEC_TEMPLATE.md",
-    "skills/specs/references/ACCEPTANCE_CRITERIA_GUIDE.md",
-    "skills/specs/references/DISCOVERY_MODEL.md",
-    "skills/specs/references/README.md",
-    "skills/specs/references/SPECIFICATION_STANDARD.md",
-    "skills/specs/references/VALIDATION_CHECKLIST.md"
-  ]
+  "skill": "specs"
 }
